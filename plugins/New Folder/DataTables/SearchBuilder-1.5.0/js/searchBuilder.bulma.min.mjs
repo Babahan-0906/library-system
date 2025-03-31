@@ -1,0 +1,4 @@
+/*! Bulma ui integration for DataTables' SearchBuilder
+ * © SpryMedia Ltd - datatables.net/license
+ */
+import jQuery from"jquery";import DataTable from"datatables.net-bm";import SearchBuilder from"datatables.net-searchbuilder";let $=jQuery;$.extend(!0,DataTable.SearchBuilder.classes,{clearAll:"button dtsb-clearAll"}),$.extend(!0,DataTable.Group.classes,{add:"button dtsb-add",clearGroup:"button dtsb-clearGroup is-light",logic:"button dtsb-logic is-light"}),$.extend(!0,DataTable.Criteria.classes,{container:"dtsb-criteria",delete:"button dtsb-delete",left:"button dtsb-left",right:"button dtsb-right"});export default DataTable;

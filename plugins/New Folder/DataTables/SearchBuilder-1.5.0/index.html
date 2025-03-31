@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>SearchBuilder 1.5.0</title>
+		
+		<link rel="shortcut icon" type="image/png" href="//datatables.net/media/images/favicon.png">
+		<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.datatables.net/rss.xml">
+		
+		<link rel="stylesheet" type="text/css" href="//datatables.net/media/css/site.css?_=a2612b9158ef4418cb5dd79c526d167f1">
+		
+		<style type="text/css">
+			
+		</style>
+
+		<script src="/media/js/mode.js?_=e9464c26d1a8fd246a57ce4ebf2d0cc8"></script>
+		<script type="text/javascript" src="//datatables.net/media/js/site.js?_=e9464c26d1a8fd246a57ce4ebf2d0cc8" data-domain="cdn.datatables.net" data-api="https://plausible.sprymedia.co.uk/api/event"></script>
+		<script src="/media/js/dynamic.php{comments-page}"></script>
+		<script defer async src="https://media.ethicalads.io/media/client/ethicalads.min.js" onload="window.dtAds()" onerror="window.dtAds()"></script>
+		
+		<script class="init">
+			dt_demo.init();
+
+			
+		</script>
+	</head>
+	<body class="">
+		<a name="top"></a>
+
+		<div class="fw-background">
+			<div>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+
+		<div class="fw-container">
+			<div class="fw-header">
+				<div class="nav-wrapper">
+					<div class="nav-master">
+						<div class="nav-item">
+							<a href="https://cloudtables.com">
+								CloudTables
+								<div class="nav-explain">
+									Low code DataTables and Editor. Configured in your browser in moments.
+								</div>
+							</a>
+						</div>
+						<div class="nav-item active">
+							<a href="https://datatables.net">
+								DataTables
+								<div class="nav-explain">
+									Advanced interaction<br>features for your tables.
+								</div>
+							</a>
+						</div>
+						<div class="nav-item">
+							<a href="https://editor.datatables.net">
+								Editor
+								<div class="nav-explain">
+									Comprehensive editing<br>library for DataTables.
+								</div>
+							</a>
+						</div>
+						<div class="nav-item dt-demo-options"></div>
+					</div>
+
+					<div class="nav-search">
+						<div class="nav-item i-manual">
+							<a href="/manual">Manual</a>
+						</div>
+						<div class="nav-item i-download">
+							<a href="/download">Download</a>
+						</div>
+						<div class="nav-item i-user">
+							<div class="account"></div>
+						</div>
+						<div class="nav-item search">
+							<form action="/q/" method="GET">
+								<input type="text" name="q" placeholder="Search . . ." autocomplete="off">
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="nav-ad">
+					<div data-ea-publisher="datatablesnet" data-ea-type="image" data-ea-manual="true"></div>
+				</div>
+			</div>
+
+			<div class="fw-nav">
+				<div class="nav-main">
+					<ul><li class=" sub"><a href="//datatables.net/examples/index">Examples</a></li><li class=" sub"><a href="//datatables.net/manual/index">Manual</a></li><li class=" sub"><a href="//datatables.net/reference/index">Reference</a></li><li class=" sub"><a href="//datatables.net/extensions/index">Extensions</a></li><li class=" sub"><a href="//datatables.net/plug-ins/index">Plug-ins</a></li><li class=""><a href="//datatables.net/blog/index">Blog</a></li><li class=""><a href="//datatables.net/forums/index">Forums</a></li><li class=""><a href="//datatables.net/support/index">Support</a></li><li class=""><a href="//datatables.net/faqs/index">FAQs</a></li><li class=""><a href="//datatables.net/download/index">Download</a></li><li class=""><a href="//datatables.net/purchase/index">Purchase</a></li></ul>
+				</div>
+
+				<div class="mobile-show">
+					<a>&#8801; <i>Show site navigation</i></a>
+				</div>
+			</div>
+
+			<div class="fw-body">
+				<div class="content">
+					<h1 class="page_title">SearchBuilder 1.5.0</h1>
+
+					<p>DataTables CDN files for SearchBuilder 1.5.0. This software was originally released on 4th July, 2023.</p>
+
+<h2 data-anchor="Release-notes"><a name="Release-notes" href="#Release-notes"></a>Release notes</h2>
+
+<p>This release introduces dark mode support (DataTables and Bootstrap 5.3 styling). A couple of bug fixes are also included.</p>
+
+<h2 data-anchor="New"><a name="New" href="#New"></a>New</h2>
+
+<ul class="markdown">
+<li>New: Dark mode support for DataTables and Bootstrap 5.3+ styling (<a href="https://github.com/DataTables/SearchBuilder/commit/a05244a">a05244a</a>).</li>
+</ul>
+
+<h2 data-anchor="Fixes"><a name="Fixes" href="#Fixes"></a>Fixes</h2>
+
+<ul class="markdown">
+<li>Fix: Add support for getting translations from DataTables' <code>i18n()</code> method for date filters (<a href="https://github.com/DataTables/SearchBuilder/commit/47c2c15">47c2c15</a>).</li>
+<li>Fix: Clear All button not readded after using a rebuild({}) (<a href="https://github.com/DataTables/SearchBuilder/commit/c8fb78a">c8fb78a</a>).</li>
+<li>Fix: Correct type inheritance for styling packages (<a href="https://github.com/DataTables/SearchBuilder/commit/4a2dcf6">4a2dcf6</a>).</li>
+<li>Fix: Third element in condition row could have a slightly different size than the other elements Dev fix: Dark mode wasn't having an effect on the dropdowns (<a href="https://github.com/DataTables/SearchBuilder/commit/599b5f2">599b5f2</a>).</li>
+</ul>
+
+<h2 data-anchor="Files"><a name="Files" href="#Files"></a>Files</h2>
+
+<p><ul><h3>css</h3>
+
+<ul><li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/common.scss">//cdn.datatables.net/searchbuilder/1.5.0/css/common.scss</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/dataTables.dateTime.scss">//cdn.datatables.net/searchbuilder/1.5.0/css/dataTables.dateTime.scss</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap4.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap4.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap4.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap4.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap5.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap5.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap5.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bootstrap5.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bulma.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bulma.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bulma.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.bulma.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.dataTables.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.foundation.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.foundation.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.foundation.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.foundation.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.jqueryui.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.jqueryui.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.jqueryui.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.jqueryui.min.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.semanticui.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.semanticui.css</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.semanticui.min.css">//cdn.datatables.net/searchbuilder/1.5.0/css/searchBuilder.semanticui.min.css</a></li>
+</ul><h3>js</h3>
+
+<ul><li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.js">//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/dataTables.searchBuilder.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap4.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bootstrap5.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.bulma.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.dataTables.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.foundation.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.jqueryui.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.min.js">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.min.js</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.min.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.min.mjs</a></li>
+<li><a href="//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.mjs">//cdn.datatables.net/searchbuilder/1.5.0/js/searchBuilder.semanticui.mjs</a></li>
+</ul><li><a href="//cdn.datatables.net/searchbuilder/1.5.0/importmap.json">//cdn.datatables.net/searchbuilder/1.5.0/importmap.json</a></li>
+</ul></p>
+
+				</div>
+			</div>
+
+			<div class="fw-page-nav">
+				<div class="page-nav">
+					<div class="page-nav-title">Page navigation</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="fw-footer">
+			<div class="copyright">
+				<h4>DataTables</h4>
+				<p>
+					DataTables designed and created by <a href="//sprymedia.co.uk">SpryMedia Ltd</a>.<br>
+					&copy; 2007-2023 <a href="//datatables.net/license/mit">MIT licensed</a>. <a href="/privacy.html">Privacy policy</a>.<br>
+					SpryMedia Ltd is registered in Scotland, company no. SC456502.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
