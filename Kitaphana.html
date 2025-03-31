@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitaphana</title>
+</head>
+<body>
+    <script>
+        var old = window.location.href;
+        old = old.split ('www');
+        var newh = 'http://localhost' + old[1].replace ('Kitaphana.html', 'temp.php');
+        // console.log(newh);
+        window.location.href = newh;
+    </script>
+</body>
+</html>
