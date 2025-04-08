@@ -1,7 +1,5 @@
-School Library Management System
-
 ## 📚 Overview
-**Elektron Kitaphana** is a digital library management system tailored for schools. It simplifies the organization of books, users, and lending operations using modern web technologies. This project was developed in **Visual Studio Code 1.70** using **PHP**, **HTML**, **JavaScript**, and **CSS**.
+**School Library Management System** is a digital library management system tailored for schools. It simplifies the organization of books, users, and lending operations using modern web technologies. This project was developed in **Visual Studio Code 1.70** using **PHP**, **HTML**, **JavaScript**, and **CSS**.
 
 It was presented at a competition and is currently deployed and being used in Specialized Secondary School №41, Turkmenabat.
 
