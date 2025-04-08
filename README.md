@@ -123,8 +123,6 @@ Below are some screenshots showcasing the user interface:
   - Goal 4: Quality Education
   - Goal 12: Responsible Consumption
 
----
-
 ## 👨‍💻 Contributors
 - **Babakulyýew Babahan**
 - **Mamedowa Gülnabat**
