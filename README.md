@@ -1,5 +1,7 @@
 ## 📚 Overview
-**School Library Management System** is a digital library management system tailored for schools. It simplifies the organization of books, users, and lending operations using modern web technologies. It was presented at a **Digital System** regional level competition, winning a gold medal and is currently deployed and being used in Specialized Secondary School №41, Turkmenabat.
+**School Library Management System** is a digital library management platform tailored specifically for schools. It streamlines the organization of books, users, and lending operations using modern web technologies. The system was presented at a Digital System regional-level competition, where it won a gold medal. It is currently deployed and actively used at Specialized Secondary School №41 in Turkmenabat.
+
+You can test the web application here: [library-system.infy.uk](http://library-system.infy.uk)
 
 ---
 
