@@ -5,22 +5,20 @@ readme_content = """# Elektron Kitaphana — School Library Management System
 ## 📚 Overview
 **Elektron Kitaphana** is a digital library management system tailored for schools. It simplifies the organization of books, users, and lending operations using modern web technologies. This project was developed in **Visual Studio Code 1.70** using **PHP**, **HTML**, **JavaScript**, and **CSS**.
 
-It was presented at a competition and is currently deployed in a school library for testing.
+It was presented at a competition and is currently deployed and being used in Specialized Secondary School №41, Turkmenabat.
 
 ---
 
 ## 📂 Table of Contents
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Tech Stack](#technologies-used)
 - [Purpose](#purpose)
 - [Benefits for Librarians](#benefits-for-librarians)
 - [How It Works](#how-it-works)
 - [Unique Features](#unique-features)
 - [Current Status](#current-status)
-- [Screenshots](#screenshots)
 - [Sustainability Impact](#sustainability-impact)
 - [Contributors](#contributors)
-- [References](#references)
 
 ---
 
@@ -37,21 +35,16 @@ It was presented at a competition and is currently deployed in a school library 
 
 ### 📊 Statistics & Reports
 - Monitor monthly activity and usage.
-- Generate data insights for decision-making.
-
-### 🔁 Borrowing System
-- Multi-user issuing system.
-- Automatic due-date tracking.
+- Generate monthly income/outcome of books, aligned with librarian's report style
 
 ### 🗑 Trash & Recovery
 - Restore deleted books/users or permanently delete them.
 
 ---
 
-## 🛠 Technologies Used
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **IDE:** Visual Studio Code 1.70
+## 🛠 Tech Stack
+- **Frontend:** HTML, CSS, JavaScript, jQuery
+- **Backend:** PHP, MySQL
 
 ---
 
@@ -77,8 +70,9 @@ Aligned with *“The Concept for Developing the Digital Education System in Turk
 1. **Books** – View, add, and export book records
 2. **Classes** – Manage and edit class data
 3. **Users** – Add/update students and teachers
-4. **Issue/Return** – Log book loans and returns
-5. **Trash** – Recover or remove deleted entries
+4. **Borrow/Return** – Log book loans and returns
+5. **Registered/Written-off Books**
+6. **Trash** – Recover or remove deleted entries
 
 ---
 
@@ -91,29 +85,8 @@ Aligned with *“The Concept for Developing the Digital Education System in Turk
 ---
 
 ## 🚀 Current Status
-- Actively tested in a school library since September 2022
+- Actively tested in a our school library since September 2022
 - Featured in *Türkmen Gündogary* newspaper
-
----
-
-## 🖼 Screenshots
-
-Below are some screenshots showcasing the user interface:
-
-![Home Dashboard](images/image_1.png)
-*Main dashboard overview.*
-
-![Book Management](images/image_3.png)
-*Adding and editing books.*
-
-![User List](images/image_8.png)
-*Managing students and teachers.*
-
-![Borrowing Interface](images/image_13.png)
-*Issuing books to multiple users.*
-
-![Reports](images/image_18.png)
-*Generating Excel/PDF reports.*
 
 ---
 
@@ -124,7 +97,7 @@ Below are some screenshots showcasing the user interface:
   - Goal 12: Responsible Consumption
 
 ## 👨‍💻 Contributors
-- **Babakulyýew Babahan**
-- **Mamedowa Gülnabat**
+- **Babakulyyev Babahan**
+- **Mamedova Gulnabat**
 - **Scientific Advisor:** Hemrayewa Irina Ahmedowna
 
