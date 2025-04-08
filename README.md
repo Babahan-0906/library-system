@@ -128,4 +128,3 @@ Below are some screenshots showcasing the user interface:
 - **Mamedowa Gülnabat**
 - **Scientific Advisor:** Hemrayewa Irina Ahmedowna
 
-"""
