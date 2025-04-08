@@ -131,9 +131,3 @@ Below are some screenshots showcasing the user interface:
 - **Scientific Advisor:** Hemrayewa Irina Ahmedowna
 
 """
-
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(readme_content)
-
-readme_path
