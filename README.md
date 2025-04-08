@@ -94,6 +94,6 @@ Aligned with *“The Concept for Developing the Digital Education System in Turk
 
 ## 👨‍💻 Contributors
 - **Babakulyyev Babahan:** Lead Developer – Designed and developed the entire project.
-- **Gülnabat Mamedowa Ruslanowna (Grade 11):** Presentation Specialist – Helped presenting the project at the regional competition, earning a gold medal.
-- **Irina Ahmedowna Hemrayewa:** Academic Advisor – Provided guidance throughout the development process.
+- **Gülnabat Mamedowa:** Presentation Specialist – Helped presenting the project at the regional competition, earning a gold medal.
+- **Irina Hemrayewa:** Academic Advisor – Provided guidance throughout the development process.
 
