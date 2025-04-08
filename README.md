@@ -67,7 +67,7 @@ Aligned with *“The Concept for Developing the Digital Education System in Turk
 2. **Classes** – Manage and edit class data
 3. **Users** – Add/update students and teachers
 4. **Borrow/Return** – Log book loans and returns
-5. **Registered/Written-off Books**
+5. **Registered/Written-off Books** - Modify registered and removed books for current month
 6. **Trash** – Recover or remove deleted entries
 
 ---
