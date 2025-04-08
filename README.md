@@ -1,6 +1,4 @@
-# library-system
-# Save the finalized README content into a markdown file for download
-readme_content = """# Elektron Kitaphana — School Library Management System
+School Library Management System
 
 ## 📚 Overview
 **Elektron Kitaphana** is a digital library management system tailored for schools. It simplifies the organization of books, users, and lending operations using modern web technologies. This project was developed in **Visual Studio Code 1.70** using **PHP**, **HTML**, **JavaScript**, and **CSS**.
