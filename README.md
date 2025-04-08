@@ -130,17 +130,6 @@ Below are some screenshots showcasing the user interface:
 - **Mamedowa Gülnabat Ruslanowna** (Grade 11)
 - **Scientific Advisor:** Hemrayewa Irina Ahmedowna
 
----
-
-## 📚 References
-1. *Paýhas çeşmesi* — Gurbanguly Berdimuhamedow  
-2. *Älem içre at gezer* — Gurbanguly Berdimuhamedow  
-3. *Bilim* Journal  
-4. *Learning CSS Creatively* — Linda Found & Tricia Lee  
-5. *Understanding PHP in Advanced Way* — Herbert Enderton  
-6. [Official PHP Documentation](https://www.php.net)
-
----
 """
 
 readme_path = "/mnt/data/README.md"
