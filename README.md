@@ -56,7 +56,7 @@ It was presented at a competition and is currently deployed in a school library 
 ---
 
 ## 🎯 Purpose
-Aligned with *“Türkmenistanda sanly bilim ulgamyny ösdürmegiň Konsepsiýasy”*, the project aims to:
+Aligned with *“The Concept for Developing the Digital Education System in Turkmenistan.”*, the project aims to:
 - Digitize school libraries
 - Reduce paperwork
 - Enhance educational tech skills
@@ -91,7 +91,7 @@ Aligned with *“Türkmenistanda sanly bilim ulgamyny ösdürmegiň Konsepsiýas
 ---
 
 ## 🚀 Current Status
-- Actively tested in a school library since September
+- Actively tested in a school library since September 2022
 - Featured in *Türkmen Gündogary* newspaper
 
 ---
@@ -126,8 +126,8 @@ Below are some screenshots showcasing the user interface:
 ---
 
 ## 👨‍💻 Contributors
-- **Babakulyýew Babahan Rozymuradowiç** (Grade 10)
-- **Mamedowa Gülnabat Ruslanowna** (Grade 11)
+- **Babakulyýew Babahan**
+- **Mamedowa Gülnabat**
 - **Scientific Advisor:** Hemrayewa Irina Ahmedowna
 
 """
