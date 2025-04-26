@@ -93,7 +93,7 @@ Aligned with *“The Concept for Developing the Digital Education System in Turk
   - Goal 12: Responsible Consumption
 
 ## 👨‍💻 Contributors
+- **Irina Hemrayewa:** Academic Advisor – Provided guidance throughout the development process.
 - **Babakulyyev Babahan:** Lead Developer – Designed and developed the entire project.
 - **Gülnabat Mamedowa:** Presentation Specialist – Helped presenting the project at the regional competition, earning a gold medal.
-- **Irina Hemrayewa:** Academic Advisor – Provided guidance throughout the development process.
 
